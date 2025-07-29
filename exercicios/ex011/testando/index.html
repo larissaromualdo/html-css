@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando carregar imagens de diferentes tamanhos</title>
+</head>
+<body>
+   <p>Estamos testando imagens para carregar em dispositivos como tablets, celulares e notebooks. </p> 
+   <picture>
+    <source media="(max-width: 750px)" srcset="tamanho-g.jpg" type="image/png">
+    <source media="(max-width: 1050px)" srcset="tamanho-m.jpg" type="image/png">
+    <img src="tamanho-p.jpg" alt="Imagem Flexível"
+   </picture>
+</body>
+</html>
